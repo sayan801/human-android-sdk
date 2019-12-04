@@ -5,6 +5,8 @@ buildscript {
     repositories {
         google()
         jcenter()
+        //https://developer.biodigital.com/docs/mobile-sdks/mobile-sdk-installation/android-installation?fbclid=IwAR3VNjKpix2KFuMGAJrohaWUFah_j2YLuvhpJp1QttuevESoGZRM4o-dZlY
+        //bio digital has "url 'https://biodigital.bintray.com/human-android-sdk/" in their documentation but in reality it should
         maven {
         url 'https://dl.bintray.com/biodigital-inc/human-android-sdk/'
         }
@@ -22,6 +24,8 @@ allprojects {
     repositories {
         google()
         jcenter()
+        //https://developer.biodigital.com/docs/mobile-sdks/mobile-sdk-installation/android-installation?fbclid=IwAR3VNjKpix2KFuMGAJrohaWUFah_j2YLuvhpJp1QttuevESoGZRM4o-dZlY
+        //bio digital has "url 'https://biodigital.bintray.com/human-android-sdk/" in their documentation but in reality it should
         maven {
              url 'https://dl.bintray.com/biodigital-inc/human-android-sdk/'
         }
