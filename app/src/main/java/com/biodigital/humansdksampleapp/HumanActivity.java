@@ -301,6 +301,10 @@ public class HumanActivity extends AppCompatActivity implements HKHumanInterface
         super.onDestroy();
     }
 
+    public void onModuleInit() {
+        System.out.println("module init");
+    }
+
     //
     // API callbacks defined in HumanBodyInterface
     //
